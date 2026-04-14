@@ -3,52 +3,40 @@ import { useAuth } from './useAuth'
 
 const SEARCH_ENGINES = [
   {
-    id: 'google',
-    name: 'Google',
-    icon: 'https://www.faviconextractor.com/favicon/www.google.com',
-    url: 'https://www.google.com/search?q='
-  },
-  {
     id: 'bing',
     name: 'Bing',
-    icon: 'https://www.faviconextractor.com/favicon/www.bing.com',
+    icon: 'https://nfav.min.us.kg/www.bing.com',
     url: 'https://www.bing.com/search?q='
+  },
+  {
+    id: 'google',
+    name: 'Google',
+    icon: 'https://nfav.min.us.kg/www.google.com',
+    url: 'https://www.google.com/search?q='
   },
   {
     id: 'baidu',
     name: '百度',
-    icon: 'https://www.faviconextractor.com/favicon/www.baidu.com',
+    icon: 'https://nfav.min.us.kg/www.baidu.com',
     url: 'https://www.baidu.com/s?wd='
   },
   {
     id: 'duckduckgo',
     name: 'DuckDuckGo',
-    icon: 'https://www.faviconextractor.com/favicon/duckduckgo.com',
+    icon: 'https://nfav.min.us.kg/duckduckgo.com',
     url: 'https://duckduckgo.com/?q='
   },
   {
     id: 'github',
     name: 'GitHub',
-    icon: 'https://www.faviconextractor.com/favicon/github.com',
+    icon: 'https://nfav.min.us.kg/github.com',
     url: 'https://github.com/search?q='
-  },
-  {
-    id: 'stackoverflow',
-    name: 'Stack Overflow',
-    icon: 'https://www.faviconextractor.com/favicon/stackoverflow.com',
-    url: 'https://stackoverflow.com/search?q='
   },
   {
     id: 'wikipedia',
     name: 'Wikipedia',
-    icon: 'https://www.faviconextractor.com/favicon/en.wikipedia.org',
-    url: 'https://en.wikipedia.org/w/index.php?search='
-  },
-  {
-    id: 'npm',
-    name: 'NPM',
-    icon: 'https://www.faviconextractor.com/favicon/www.npmjs.com',
-    url: 'https://www.npmjs.com/search?q='
+    icon: 'https://nfav.min.us.kg/wikipedia.org',
+    url: 'https://zh.wikipedia.org/w/index.php?search='
   }
 ]
 
