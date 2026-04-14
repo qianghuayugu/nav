@@ -197,10 +197,12 @@ const searchResults = computed(() => {
 // 获取网站图标
 const getFaviconUrl = (url) => {
   try {
-    const urlObj = new URL(url)
-    return `${urlObj.origin}/favicon.ico`
+    const urlObj = new URL(url);
+    const domain = urlObj.hostname;
+    return `https://nfav.min.us.kg/${domain}`;
   } catch {
-    return null
+    // 如果 URL 格式不正确，返回一个默认图标
+    return `https://www.gstatic.com/images/branding/product/1x/generic_web_16dp.png`;
   }
 }
 
